@@ -1,0 +1,26 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="addTest">
+      <typing text-keycode="50:1;84:1;69:0;83:0;84:0">@Test</typing>
+      <action id="EditorChooseLookupItem" />
+      <action id="EditorEnter" />
+      <typing text-keycode="80:0;85:0;66:0;76:0;73:0;67:0;32:0;86:0;79:0;73:0;68:0;32:0;84:0;69:0;83:0;84:0;57:1;48:1">public&amp;#x20;void&amp;#x20;test()</typing>
+      <action id="EditorEnter" />
+      <typing text-keycode="91:1">{</typing>
+      <action id="EditorEnter" />
+    </macro>
+    <macro name="addLogger">
+      <typing text-keycode="80:0;82:0;73:0;86:0;65:0;84:0;69:0;32:0;83:0;84:0;65:0;84:0;73:0;67:0;32:0;70:0;73:0;78:0;65:0;76:0;32:0;76:1;79:0;71:0;71:0;69:0;82:0;32:0;76:0;79:0;71:0;71:0;69:0;82:0;32:0;61:0;32:0;76:1;79:0;71:0;71:0;69:0;82:0;70:1;65:0;67:0;84:0;79:0;82:0;89:0;46:0;71:0;69:0;84:0;57:1;48:1;59:0">private&amp;#x20;static&amp;#x20;final&amp;#x20;Logger&amp;#x20;logger&amp;#x20;=&amp;#x20;LoggerFactory.get();</typing>
+    </macro>
+    <macro name="addLogger2">
+      <typing text-keycode="80:0;82:0;73:0;86:0;65:0;84:0;69:0;32:0;83:0;84:0;65:0;84:0;73:0;67:0;32:0;70:0;73:0;78:0;65:0;76:0;32:0;76:1;79:0;71:0;71:0;69:0;82:0;32:0;76:0;79:0;71:0;71:0;69:0;82:0;32:0;61:0;32:0;76:1;79:0;71:0;71:0;69:0;82:0;70:1;65:0;67:0;84:0;79:0;82:0;89:0;46:0;71:0;69:0;84:0;76:1;79:0;71:0;71:0;69:0;82:0;57:1">private&amp;#x20;static&amp;#x20;final&amp;#x20;Logger&amp;#x20;logger&amp;#x20;=&amp;#x20;LoggerFactory.getLogger(</typing>
+    </macro>
+    <macro name="for">
+      <typing text-keycode="70:0;79:0;82:0;32:0;57:1;73:0;78:0;84:0;32:0;73:0;32:0;61:0;32:0;48:0;59:0;32:0;73:0;32:0;44:1;32:0;59:0;32:0;107:0;107:0;73:0">for&amp;#x20;(int&amp;#x20;i&amp;#x20;=&amp;#x20;0;&amp;#x20;i&amp;#x20;&lt;&amp;#x20;;&amp;#x20;++i</typing>
+      <action id="EditorLineEnd" />
+      <action id="EditorEnter" />
+      <typing text-keycode="91:1">{</typing>
+      <action id="EditorEnter" />
+    </macro>
+  </component>
+</application>
